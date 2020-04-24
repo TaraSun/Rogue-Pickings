@@ -1,0 +1,222 @@
+/* =========== Base Styles ========== */
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+body{
+ font-family:'Montserrat', sans-serif;
+ color: black;
+}
+
+
+/* ======== Grid  =========== */
+
+body{
+  margin: 20px;
+}
+
+.full-width{
+  width: 1200px;
+}
+
+.half-width{
+  width: 600px;
+  float: left;
+}
+
+.third-width{
+  width: 398px;
+  float: left
+}
+
+footer{
+  clear: both;
+}
+
+/* ============= Header ================ */
+header span{
+  color: #77a466;
+}
+header h1{
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+nav{
+  color: #77a466;
+  float: right;
+}
+
+nav ul li{
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 12px;
+  text-transform: uppercase;
+}
+
+nav a:link, nav a:visited, nav a:active{
+	text-decoration: none;
+	color: #77a466;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+/* ====== About ========== */
+#about{
+  padding: 39px 0;
+}
+
+img{
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+}
+
+#about h2{
+  color: #77a466;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#about p{
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/* ========== Details ======== */
+h3{
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.third-width{
+  box-sizing: border-box;
+}
+
+#details{
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+  overflow: auto;
+}
+
+#specials{
+  padding: 30px 0;
+
+}
+
+#specials ul li{
+  color: #77a466;
+  list-style: none;
+  font-size: 16px;
+  line-height: 36px;
+}
+
+#specials ul{
+  padding: 0px;
+}
+
+#reviews{
+  border-left: 1px solid #dedbdc;
+  border-right: 1px solid #dedbdc;
+  padding: 30px 30px 15px 30px;
+}
+
+#reviews p{
+  font-size: 16px;
+  line-height: 21px;
+}
+
+#contact{
+  padding: 30px;
+}
+
+#contact p{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* ================= Footer ================== */
+footer{
+  padding: 10px 0 0 0;
+}
+
+footer p{
+  font-size: 16px;
+  line-height: 23px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+
+footer span{
+  color: #77a466;
+  font-family: 'Wisdom Script', cursive;
+  font-size: 18px;
+  text-transform: lowercase;
+}
+
+
+/* ================= LOCATIONS PAGE ====================== */
+#locations-header{
+	padding-bottom: 90px;
+}
+
+#locations-header a:link{
+	text-decoration: none;
+}
+
+#locations-header a:visited{
+	color: inherit;
+}
+
+.current{
+	text-decoration: underline;
+}
+
+#locations{
+	border-top: 1px solid #dedbdc;
+	border-bottom: 1px solid #dedbdc;
+	overflow: auto;
+	text-align: center;
+	box-sizing: border-box;
+	margin: 40px 0 20px 0;
+}
+
+#main-loc iframe{
+	width: 300px;
+	height: 300px;
+	padding: 10px 0 10px 0;
+}
+
+#main-loc a{
+	text-decoration: none;
+	color: #77a466;
+}
+
+#mis-bay-loc{
+	border-left: 1px solid #dedbdc;
+  border-right: 1px solid #dedbdc;
+}
+
+#mis-bay-loc iframe{
+	width: 300px;
+	height: 300px;
+	padding: 10px 0 10px 0;
+}
+
+#mis-bay-loc a{
+	text-decoration: none;
+	color: #77a466;
+}
+
+#mis-dist-loc iframe{
+	width: 300px;
+	height: 300px;
+	padding: 10px 0 10px 0;
+}
+
+#mis-dist-loc a{
+	text-decoration: none;
+	color: #77a466;
+}
