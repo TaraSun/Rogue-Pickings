@@ -220,3 +220,44 @@ footer span{
 	text-decoration: none;
 	color: #77a466;
 }
+
+/***************** ABOUT PAGE *******************/
+#about-header a:link{
+	text-decoration: none;
+}
+
+#about-header a:visited{
+	color: inherit;
+}
+
+#about-page main{
+	clear: both;
+}
+
+#about-page h2{
+	color: #77a466;
+	text-align: left;
+	padding-top: 20px;
+}
+
+#bio{
+	border-top: 1px solid #dedbdc;
+	border-bottom: 1px solid #dedbdc;
+	overflow: auto;
+}
+
+#about-left{
+	padding-right: 25px;
+	box-sizing: border-box;
+}
+
+#about-right{
+	padding-left: 35px;
+	padding-right: 10px;
+	box-sizing: border-box;
+}
+
+#bio p{
+	line-height: 25px;
+	text-align: justify;
+}
