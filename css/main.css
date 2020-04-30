@@ -29,6 +29,11 @@ body{
   float: left
 }
 
+.two-third-width{
+	width: 796px;
+	float: left
+}
+
 footer{
   clear: both;
 }
@@ -263,10 +268,91 @@ footer span{
 }
 
 /******************** MENU PAGE ********************/
+#menu-header{
+	clear:both;
+}
+
 #menu-header a:link{
 	text-decoration: none;
 }
 
 #menu-header a:visited{
 	color: inherit;
+}
+
+#specials-menu{
+	height: 170px;
+	border-top:1px solid #dedbdc;
+	border-right: 1px solid #dedbdc;
+}
+
+#small-plates{
+	height: 170px;
+	border-top:1px solid #dedbdc;
+}
+
+#sandwiches{
+	float:right;
+	height: 630px;
+	margin-right: 46px;
+	border-top:1px solid #dedbdc;
+	border-left: 1px solid #dedbdc;
+	border-bottom: 1px solid #dedbdc;
+}
+
+#salads{
+	height: 140px;
+	border-top:1px solid #dedbdc;
+	border-bottom: 1px solid #dedbdc;
+	overflow: auto;
+}
+
+#entrees{
+	height: 160px;
+	overflow: auto;
+}
+
+#drinks{
+	height: 160px;
+	border-top:1px solid #dedbdc;
+	border-bottom: 1px solid #dedbdc;
+	overflow: auto;
+}
+
+#specials-menu, #small-plates, #sandwiches, #salads, #entrees, #drinks{
+	box-sizing: border-box;
+}
+
+#specials-menu, #small-plates, #sandwiches{
+	padding: 15px 0 0 20px;
+}
+
+#specials-menu p{
+	line-height: 27px;
+}
+
+#small-plates p{
+	line-height: 23px;
+}
+
+#sandwiches p{
+	line-height: 55px;
+}
+
+#salads, #entrees, #drinks{
+	padding: 15px 0 0 20px;
+}
+
+.left-column, .right-column{
+	width: 360px;
+}
+
+#salads p, #entrees p, #drinks p{
+	margin-top: 2px;
+	line-height: 25px;
+}
+
+#menu-page h3{
+	color: #77a466;
+	font-size: 16px;
 }
