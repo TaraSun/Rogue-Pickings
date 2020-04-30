@@ -261,3 +261,12 @@ footer span{
 	line-height: 25px;
 	text-align: justify;
 }
+
+/******************** MENU PAGE ********************/
+#menu-header a:link{
+	text-decoration: none;
+}
+
+#menu-header a:visited{
+	color: inherit;
+}
