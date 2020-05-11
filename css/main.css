@@ -355,3 +355,41 @@ footer span{
 	color: #77a466;
 	font-size: 16px;
 }
+
+
+/***************** Gallery Page **************/
+#gallery-page header {
+	clear: both;
+	overflow:auto;
+	border-bottom: 1px solid #dedbdc;
+}
+
+#gallery-page h2 {
+	margin: 30px 0;
+	text-align: center;
+}
+
+#gallery-page #column-two {
+	text-align: center;
+}
+
+#gallery-page #column-three {
+	text-align: right;
+}
+
+#gallery-page #column-one img {
+	margin-bottom: 44px;
+}
+
+#gallery-page #column-two img {
+	margin-bottom: 22px;
+}
+
+#gallery-page #column-three img {
+	margin-bottom: 41px;
+}
+
+#gallery-page footer {
+	margin-top: 0;
+	border-top: 1px solid #dedbdc;
+}
