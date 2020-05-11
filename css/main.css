@@ -284,13 +284,13 @@ footer span{
 
 #specials-menu{
 	height: 170px;
-	border-top:1px solid #dedbdc;
-	border-right: 1px solid #dedbdc;
+	border-top:1px solid #a69ea0;
+	border-right: 1px solid #a69ea0;
 }
 
 #small-plates{
 	height: 170px;
-	border-top:1px solid #dedbdc;
+	border-top:1px solid #a69ea0;
 }
 
 #sandwiches{
@@ -298,15 +298,15 @@ footer span{
 	height: 630px;
 	width: 388px;
 	margin-right: 46px;
-	border-top:1px solid #dedbdc;
-	border-left: 1px solid #dedbdc;
-	border-bottom: 1px solid #dedbdc;
+	border-top:1px solid #a69ea0;
+	border-left: 1px solid #a69ea0;
+	border-bottom: 1px solid #a69ea0;
 }
 
 #salads{
 	height: 140px;
-	border-top:1px solid #dedbdc;
-	border-bottom: 1px solid #dedbdc;
+	border-top:1px solid #a69ea0;
+	border-bottom: 1px solid #a69ea0;
 	overflow: auto;
 }
 
@@ -317,8 +317,8 @@ footer span{
 
 #drinks{
 	height: 160px;
-	border-top:1px solid #dedbdc;
-	border-bottom: 1px solid #dedbdc;
+	border-top:1px solid #a69ea0;
+	border-bottom: 1px solid #a69ea0;
 	overflow: auto;
 }
 
