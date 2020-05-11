@@ -41,6 +41,8 @@ footer{
 /* ============= Header ================ */
 header span{
   color: #77a466;
+	clear: both;
+	overflow: auto;
 }
 header h1{
   font-size: 30px;
@@ -292,8 +294,9 @@ footer span{
 }
 
 #sandwiches{
-	float:right;
+	float: right;
 	height: 630px;
+	width: 388px;
 	margin-right: 46px;
 	border-top:1px solid #dedbdc;
 	border-left: 1px solid #dedbdc;
@@ -327,16 +330,12 @@ footer span{
 	padding: 15px 0 0 20px;
 }
 
-#specials-menu p{
+#specials-menu p, #small-plates p{
 	line-height: 27px;
 }
 
-#small-plates p{
-	line-height: 23px;
-}
-
 #sandwiches p{
-	line-height: 55px;
+	line-height: 65px;
 }
 
 #salads, #entrees, #drinks{
