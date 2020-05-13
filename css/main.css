@@ -403,18 +403,19 @@ footer span{
 
 #reviews-page h2 {
 	text-align: center;
-	padding: 16px 0;
+	padding: 4px 0;
 }
 
 #review-intro {
 	padding-right: 45px;
 	box-sizing: border-box;
 	text-align: justify;
+
 }
 
 #review-intro p{
 	font-size: 18px;
-	padding-bottom: 20px;
+	padding: 15px 0 20px 0;
 	line-height: 30px;
 }
 
@@ -434,11 +435,99 @@ footer span{
 	vertical-align: bottom;
 }
 
+#review-section {
+	box-sizing: border-box;
+	padding: 25px 10px 0 10px;
+	background-color: #77a466;
+}
+
 #review-section iframe {
 	margin-bottom: 30px;
-	border: 2px solid #537646;
 }
 
 #reviews-page footer {
 	border-top: 1px solid #dedbdc;
+}
+
+/********* Contact Section **********/
+#contact-page header {
+	clear: both;
+	overflow: auto;
+	border-bottom: 1px solid #dedbdc;
+}
+
+#contact-page h2 {
+	text-align: center;
+	padding: 10px 0 25px 0;
+}
+
+#phone {
+	padding: 20px 0;
+	width: 275px;
+	float: left;
+	box-sizing: border-box;
+}
+
+#social-media {
+	width: 325px;
+	float: left;
+	box-sizing: border-box;
+	padding: 20px 0;
+}
+
+#contact-page h3 {
+	font-size: 20px;
+}
+
+#contact-page h4 {
+	font-size: 18px;
+	color: #77a466;
+}
+
+#contact-page p {
+	line-height: 28px;
+}
+
+#phone p{
+	color: #77a466;
+	font-size: 18px;
+	padding-top: 10px;
+}
+
+#contact-page img {
+	border: none;
+	padding-right: 15px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
